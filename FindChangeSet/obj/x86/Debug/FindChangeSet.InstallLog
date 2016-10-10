@@ -1,0 +1,96 @@
+﻿Installing assembly 'D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.InstallLog
+   assemblypath = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe
+Rolling back assembly 'D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.InstallLog
+   assemblypath = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe
+Installing assembly 'D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.InstallLog
+   assemblypath = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe
+Rolling back assembly 'D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.InstallLog
+   assemblypath = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe
+Installing assembly 'D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.InstallLog
+   assemblypath = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe
+Installing service MyService...
+Service MyService has been successfully installed.
+Creating EventLog source MyService in log Application...
+Committing assembly 'D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.InstallLog
+   assemblypath = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe
+Uninstalling assembly 'D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.InstallLog
+   assemblypath = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe
+Removing EventLog source MyService.
+Service MyService is being removed from the system...
+Service MyService was successfully removed from the system.
+Installing assembly 'D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.InstallLog
+   assemblypath = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe
+Installing service MyService...
+Service MyService has been successfully installed.
+Creating EventLog source MyService in log Application...
+Committing assembly 'D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.InstallLog
+   assemblypath = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe
+Uninstalling assembly 'D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.InstallLog
+   assemblypath = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe
+Removing EventLog source MyService.
+Service MyService is being removed from the system...
+Service MyService was successfully removed from the system.
+Installing assembly 'D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.InstallLog
+   assemblypath = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe
+Installing service MyService...
+Service MyService has been successfully installed.
+Creating EventLog source MyService in log Application...
+Committing assembly 'D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.InstallLog
+   assemblypath = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe
+Uninstalling assembly 'D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.InstallLog
+   assemblypath = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe
+Removing EventLog source MyService.
+Service MyService is being removed from the system...
+Service MyService was successfully removed from the system.
+Installing assembly 'D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.InstallLog
+   assemblypath = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe
+Installing service MyService...
+Service MyService has been successfully installed.
+Creating EventLog source MyService in log Application...
+Committing assembly 'D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.InstallLog
+   assemblypath = D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe

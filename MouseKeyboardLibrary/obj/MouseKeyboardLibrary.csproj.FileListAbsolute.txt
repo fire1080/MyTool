@@ -1,0 +1,15 @@
+C:\Files\Programming\C# .NET\MouseKeyboardLibrary20\MouseKeyboardLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Files\Programming\C# .NET\MouseKeyboardLibrary20\MouseKeyboardLibrary\bin\Debug\MouseKeyboardLibrary.dll
+C:\Files\Programming\C# .NET\MouseKeyboardLibrary20\MouseKeyboardLibrary\bin\Debug\MouseKeyboardLibrary.pdb
+C:\Files\Programming\C# .NET\MouseKeyboardLibrary20\MouseKeyboardLibrary\obj\Debug\MouseKeyboardLibrary.dll
+C:\Files\Programming\C# .NET\MouseKeyboardLibrary20\MouseKeyboardLibrary\obj\Debug\MouseKeyboardLibrary.pdb
+D:\我的文档\桌面\key\MouseKeyboardLibrary\bin\Debug\MouseKeyboardLibrary.dll
+D:\我的文档\桌面\key\MouseKeyboardLibrary\bin\Debug\MouseKeyboardLibrary.pdb
+D:\我的文档\桌面\key\MouseKeyboardLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\我的文档\桌面\key\MouseKeyboardLibrary\obj\Debug\MouseKeyboardLibrary.dll
+D:\我的文档\桌面\key\MouseKeyboardLibrary\obj\Debug\MouseKeyboardLibrary.pdb
+d:\Documents and Settings\lwjdeng\Desktop\HOOK\MouseKeyboardLibrary\bin\Debug\MouseKeyboardLibrary.dll
+d:\Documents and Settings\lwjdeng\Desktop\HOOK\MouseKeyboardLibrary\bin\Debug\MouseKeyboardLibrary.pdb
+d:\Documents and Settings\lwjdeng\Desktop\HOOK\MouseKeyboardLibrary\obj\Debug\ResolveAssemblyReference.cache
+d:\Documents and Settings\lwjdeng\Desktop\HOOK\MouseKeyboardLibrary\obj\Debug\MouseKeyboardLibrary.dll
+d:\Documents and Settings\lwjdeng\Desktop\HOOK\MouseKeyboardLibrary\obj\Debug\MouseKeyboardLibrary.pdb

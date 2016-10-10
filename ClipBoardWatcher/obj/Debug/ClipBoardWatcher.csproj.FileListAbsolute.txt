@@ -1,0 +1,8 @@
+D:\Ricky\Temp\MyTfsTool\ClipBoardWatcher\bin\Debug\ClipBoardWatcher.exe
+D:\Ricky\Temp\MyTfsTool\ClipBoardWatcher\bin\Debug\ClipBoardWatcher.pdb
+D:\Ricky\Temp\MyTfsTool\ClipBoardWatcher\obj\Debug\ClipBoardWatcher.csprojResolveAssemblyReference.cache
+D:\Ricky\Temp\MyTfsTool\ClipBoardWatcher\obj\Debug\ClipBoardWatcher.Form1.resources
+D:\Ricky\Temp\MyTfsTool\ClipBoardWatcher\obj\Debug\ClipBoardWatcher.frmnewprcdetails.resources
+D:\Ricky\Temp\MyTfsTool\ClipBoardWatcher\obj\Debug\ClipBoardWatcher.csproj.GenerateResource.Cache
+D:\Ricky\Temp\MyTfsTool\ClipBoardWatcher\obj\Debug\ClipBoardWatcher.exe
+D:\Ricky\Temp\MyTfsTool\ClipBoardWatcher\obj\Debug\ClipBoardWatcher.pdb

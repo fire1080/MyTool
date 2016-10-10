@@ -66,11 +66,14 @@
         <Key>-------------------------------------------------------</Key>
         <Value>c:\</Value>
       </Everything>
+      <Everything>
+        <Key>a</Key>
+        <Value>www.baidu.com</Value>
+      </Everything>
     </Everythings>
   </OpenEverything>
   <ClipboardHelper>
     <PredifinedCopies>
-      <CopyString>SELECT * FROM </CopyString>
     </PredifinedCopies>
   </ClipboardHelper>
 </MyTool>

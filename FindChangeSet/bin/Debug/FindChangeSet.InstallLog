@@ -1,0 +1,13 @@
+﻿Installing assembly 'D:\Ricky\Temp\MyTfsTool\FindChangeSet\bin\Debug\FindChangeSet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Ricky\Temp\MyTfsTool\FindChangeSet\bin\Debug\FindChangeSet.InstallLog
+   assemblypath = D:\Ricky\Temp\MyTfsTool\FindChangeSet\bin\Debug\FindChangeSet.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the D:\Ricky\Temp\MyTfsTool\FindChangeSet\bin\Debug\FindChangeSet.exe assembly.
+Committing assembly 'D:\Ricky\Temp\MyTfsTool\FindChangeSet\bin\Debug\FindChangeSet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Ricky\Temp\MyTfsTool\FindChangeSet\bin\Debug\FindChangeSet.InstallLog
+   assemblypath = D:\Ricky\Temp\MyTfsTool\FindChangeSet\bin\Debug\FindChangeSet.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the D:\Ricky\Temp\MyTfsTool\FindChangeSet\bin\Debug\FindChangeSet.exe assembly.
+Remove InstallState file because there are no installers.

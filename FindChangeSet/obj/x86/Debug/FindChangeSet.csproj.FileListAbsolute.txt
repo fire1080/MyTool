@@ -1,0 +1,7 @@
+D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.FindChangeSetForm.resources
+D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.csproj.GenerateResource.Cache
+D:\Ricky\Temp\MyTfsTool\FindChangeSet\bin\Debug\FindChangeSet.exe
+D:\Ricky\Temp\MyTfsTool\FindChangeSet\bin\Debug\FindChangeSet.pdb
+D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.exe
+D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.pdb
+D:\Ricky\Temp\MyTfsTool\FindChangeSet\obj\x86\Debug\FindChangeSet.ProjectInstaller.resources

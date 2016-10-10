@@ -1,0 +1,17 @@
+D:\Ricky\Temp\MyTfsTool\MyClipboardHelper\bin\Debug\MyClipboardHelper.exe
+D:\Ricky\Temp\MyTfsTool\MyClipboardHelper\bin\Debug\MyClipboardHelper.pdb
+D:\Ricky\Temp\MyTfsTool\MyClipboardHelper\obj\x86\Debug\MyClipboardHelper.Properties.Resources.resources
+D:\Ricky\Temp\MyTfsTool\MyClipboardHelper\obj\x86\Debug\MyClipboardHelper.csproj.GenerateResource.Cache
+D:\Ricky\Temp\MyTfsTool\MyClipboardHelper\obj\x86\Debug\MyClipboardHelper.exe
+D:\Ricky\Temp\MyTfsTool\MyClipboardHelper\obj\x86\Debug\MyClipboardHelper.pdb
+D:\Ricky\Temp\MyTfsTool\MyClipboardHelper\obj\x86\Debug\MyClipboardHelper.Form1.resources
+D:\Ricky\Temp\MyTfsTool\MyClipboardHelper\obj\x86\Debug\MyClipboardHelper.csprojResolveAssemblyReference.cache
+D:\Ricky\Temp\MyTool\MyClipboardHelper\obj\x86\Debug\MyClipboardHelper.exe
+D:\Ricky\Temp\MyTool\MyClipboardHelper\obj\x86\Debug\MyClipboardHelper.pdb
+D:\Ricky\Temp\MyTool\MyClipboardHelper\bin\Debug\MyClipboardHelper.exe.config
+D:\Ricky\Temp\MyTool\MyClipboardHelper\bin\Debug\MyClipboardHelper.exe
+D:\Ricky\Temp\MyTool\MyClipboardHelper\bin\Debug\MyClipboardHelper.pdb
+D:\Ricky\Temp\MyTool\MyClipboardHelper\obj\x86\Debug\MyClipboardHelper.Properties.Resources.resources
+D:\Ricky\Temp\MyTool\MyClipboardHelper\obj\x86\Debug\MyClipboardHelper.csproj.GenerateResource.Cache
+D:\Ricky\Temp\MyTool\MyClipboardHelper\obj\x86\Debug\MyClipboardHelper.csprojResolveAssemblyReference.cache
+D:\Ricky\Temp\MyTool\MyClipboardHelper\obj\x86\Debug\clipboard_helper.FrmMyClipboard.resources

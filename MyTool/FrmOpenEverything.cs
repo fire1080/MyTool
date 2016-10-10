@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace MyTool
 {
@@ -51,33 +54,40 @@ namespace MyTool
 
         private void OpenItem(string item)
         {
-            if (Directory.Exists(item))
+            item = item.ToUpper();
+            if (item.StartsWith("HTTP://") || item.StartsWith("FTP://"))
+            {
+                FileHelper.OpenBrower(item);
+            }
+            else if (Directory.Exists(item))
             {
                 FileHelper.OpenDirectory(item);
             }
             else if (File.Exists(item))
             {
-                if (Path.HasExtension(item))
+                if (!Path.HasExtension(item))
                 {
                     FileHelper.OpenFileWithNotePad(item);
+                    return;
                 }
                 var extention = Path.GetExtension(item);
-                switch (extention.ToLower())
+                switch (extention)
                 {
-                    case "exe":
+                    case ".EXE":
                         FileHelper.ExecuteFile(item);
                         break;
-                    case "bat":
+                    case ".BAT":
+                        FileHelper.ExecuteFile(item);
                         break;
-                    case "txt":
+                    case ".TXT":
                         FileHelper.OpenFileWithNotePad(item);
                         break;
-                    case "jpg":
-                    case "png":
+                    case ".JPG":
+                    case ".PNG":
                         FileHelper.ExecuteFile(item);
                         break;
                     default:
-                        FileHelper.ExecuteFile(item);
+                        FileHelper.OpenFileWithNotePad(item);
                         break;
                 }
             }
@@ -230,7 +240,8 @@ namespace MyTool
 
         private bool ValidateEverythingValue(string value)
         {
-            return Directory.Exists(value) || File.Exists(value);
+            return Uri.IsWellFormedUriString(value, UriKind.RelativeOrAbsolute) || Directory.Exists(value) ||
+                   File.Exists(value);
         }
 
         private Dictionary<string,string> MoveUpItem(Dictionary<string,string>dic , string key)

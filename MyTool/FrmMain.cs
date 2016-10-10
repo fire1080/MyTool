@@ -26,12 +26,14 @@ namespace MyTool
         public FrmMain()
         {
             _keyboardHook = new KeyboardHook();
-            _keyboardHook.RegisterHotKey(new KeyboardHook.HotKey() { Control = true, KeyCode = Keys.D1, KeyUp = new KeyEventHandler(FindChangeSetProc) });
-            _keyboardHook.RegisterHotKey(new KeyboardHook.HotKey() { Control = true, KeyCode = Keys.D2, KeyUp = new KeyEventHandler(OpenIccInstant) });
-            _keyboardHook.RegisterHotKey(new KeyboardHook.HotKey() { Control = true, KeyCode = Keys.Oem3, KeyUp = new KeyEventHandler(OpenEverything) });
+            _keyboardHook.RegisterHotKey(new KeyboardHook.HotKey() { Control = true, Shift = true, KeyCode = Keys.D1, KeyUp = new KeyEventHandler(FindChangeSetProc) });
+            _keyboardHook.RegisterHotKey(new KeyboardHook.HotKey() { Control = true, Shift = true, KeyCode = Keys.D2, KeyUp = new KeyEventHandler(OpenIccInstant) });
+            _keyboardHook.RegisterHotKey(new KeyboardHook.HotKey() { Control = true, Shift = true, KeyCode = Keys.Oem3, KeyUp = new KeyEventHandler(OpenEverything) });
             _clipboardOperator = new ClipboardOperator();
             _keyboardHook.RegisterHotKey(new KeyboardHook.HotKey() { Control = true, KeyCode = Keys.C, KeyUp = new KeyEventHandler(_clipboardOperator.OnCopyToClipboard), Interval = 100 });
             _keyboardHook.RegisterHotKey(new KeyboardHook.HotKey() { Win = true, KeyCode = Keys.V, KeyUp = new KeyEventHandler(_clipboardOperator.OnMyPasteRequest), Interval = 100 });
+            const string pasteSelectSql = @"Select * from T1 t order by t.Id;";
+            _keyboardHook.RegisterHotKey(new KeyboardHook.HotKey() { Win = true, KeyCode = Keys.Q, KeyUp = (sender, args) => _clipboardOperator.OnMyPasteText(pasteSelectSql, "T1"), Interval = 100 });
             _keyboardHook.Start();
             Debug.Print(_keyboardHook.IsStarted.ToString());
         }

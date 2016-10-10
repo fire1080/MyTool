@@ -1,0 +1,8 @@
+D:\Ricky\Temp\MyTfsTool\FindChangeSetByComments\bin\Debug\FindChangeSetByComments.exe
+D:\Ricky\Temp\MyTfsTool\FindChangeSetByComments\bin\Debug\FindChangeSetByComments.pdb
+D:\Ricky\Temp\MyTfsTool\FindChangeSetByComments\obj\x86\Debug\FindChangeSet.frmFindChangeSet.resources
+D:\Ricky\Temp\MyTfsTool\FindChangeSetByComments\obj\x86\Debug\FindChangeSetByComments.Form1.resources
+D:\Ricky\Temp\MyTfsTool\FindChangeSetByComments\obj\x86\Debug\FindChangeSetByComments.Properties.Resources.resources
+D:\Ricky\Temp\MyTfsTool\FindChangeSetByComments\obj\x86\Debug\FindChangeSetByComments.csproj.GenerateResource.Cache
+D:\Ricky\Temp\MyTfsTool\FindChangeSetByComments\obj\x86\Debug\FindChangeSetByComments.exe
+D:\Ricky\Temp\MyTfsTool\FindChangeSetByComments\obj\x86\Debug\FindChangeSetByComments.pdb

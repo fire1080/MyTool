@@ -13,7 +13,7 @@ namespace MyTool
 {
     public partial class FrmMyClipboard : Form//,IDisposable
     {
-        public event Action<string> PasteInfoSelected = null;
+        public event Action<string, string> PasteInfoSelected = null;
 
         public FrmMyClipboard()
         {
@@ -29,6 +29,10 @@ namespace MyTool
             if(history != null && history.Count > 0)
             {
                 lstHistory.SelectedIndex = 0;
+            }
+            else
+            {
+                this.Close();
             }
             using (Graphics g = this.CreateGraphics())
             {
@@ -57,7 +61,7 @@ namespace MyTool
             index = lstHistory.IndexFromPoint(e.X, e.Y);
             if (PasteInfoSelected != null && index >= 0 && index < lstHistory.Items.Count)
             {
-                PasteInfoSelected(lstHistory.Items[index].ToString());
+                PasteInfoSelected(lstHistory.Items[index].ToString(), null);
             }
             this.Hide();
         }
@@ -93,7 +97,7 @@ namespace MyTool
                 case (char)Keys.Space:
                     if (lstHistory.SelectedIndex >= 0 && PasteInfoSelected != null)
                     {
-                        PasteInfoSelected((string)lstHistory.SelectedItem);
+                        PasteInfoSelected((string)lstHistory.SelectedItem, null);
                     }
                     e.Handled = true;
                     this.Hide();

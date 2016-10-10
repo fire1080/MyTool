@@ -174,15 +174,15 @@ namespace MyTool
         }
 
         //对于ctrl + V失效的情况： 即使true也没法吞掉ctrl + V, 而是因为_frmHistoryList成为了当前window而使粘帖没有发生在目标窗体上
-        //在ctrl + V起效前，使用SetFocus(IntPtr.Zero);防止粘帖发生
+        //在粘帖起效前，使用SetFocus(IntPtr.Zero);防止快捷键字符输入到目标窗体上
         public void OnMyPasteRequest(object sender, KeyEventArgs args)
         {
             SetFocus(IntPtr.Zero);
 
             if (_frmHistoryList != null && _frmHistoryList.Visible)
             {
-                SetFocus(_frmHistoryList.Handle);
                 _frmHistoryList.MoveToNextHistory();
+                SetFocus(_frmHistoryList.Handle);
             }
             else
             {
@@ -198,6 +198,7 @@ namespace MyTool
                 _frmHistoryList = new FrmMyClipboard();
                 _frmHistoryList.PasteInfoSelected += Paste;
                 _frmHistoryList.TopMost = true;
+                SetForegroundWindow(_frmHistoryList.Handle);
             }
 
             int x = Math.Min(Control.MousePosition.X, Screen.PrimaryScreen.Bounds.Width - _frmHistoryList.Width);
@@ -209,9 +210,21 @@ namespace MyTool
             _frmHistoryList.populate(historyList);
         }
 
+        public void OnMyPasteText(string pasteText, string removeText = null, int removeHotkeyLength = 1)
+        {
+            //remove the hotkey input
+            for (int i = 0; i < removeHotkeyLength; i++)
+            {
+                keybd_event((byte)Keys.Back, 0, 0, 0);
+                keybd_event((byte)Keys.Back, 0, KEYEVENTF_KEYUP, 0);
+            }
 
+            //paste
+            _operatorWindowHandle = GetForegroundWindow();
+            Paste(pasteText, removeText);
+        }
 
-        private void Paste(string text)
+        private void Paste(string text, string removeText = null)
         {
             if (string.IsNullOrEmpty(text) && _operatorWindowHandle == IntPtr.Zero)
             {
@@ -225,7 +238,7 @@ namespace MyTool
             //  })));
 
             string pasteText = text;
-            string onClipboardText = _clipboardHistory.Any() ?  _clipboardHistory[0] : text;
+            string onClipboardText = _clipboardHistory.Any() ?  _clipboardHistory[0] : null;
 
             var newTask = Task.Factory.StartNew(() =>
             {
@@ -243,17 +256,45 @@ namespace MyTool
                 Thread.Sleep(20);
                 keybd_event(ClipboardOperator.VK_CONTROL, 0, 0, 0);
                 keybd_event((byte)Keys.V, 0, 0, 0); //Send the V key
-                Thread.Sleep(20);
+                Thread.Sleep(10);
                 keybd_event((byte)Keys.V, 0, KEYEVENTF_KEYUP, 0);
                 keybd_event(VK_CONTROL, 0, KEYEVENTF_KEYUP, 0); // 'Left Control Up
                 Thread.Sleep(20);
 
                 //Clipboard.SetText(onClipboardText);
-                Clipboard.SetDataObject(onClipboardText, true);
+                if (!string.IsNullOrEmpty(onClipboardText))
+                    Clipboard.SetDataObject(onClipboardText, true);
                 //不加此步骤会在下次copy后GetText()时报错。。。原因不明
                 Clipboard.GetText();
 
-            }, CancellationToken.None, TaskCreationOptions.None, TaskScheduler.FromCurrentSynchronizationContext());
+            }, CancellationToken.None, TaskCreationOptions.None, TaskScheduler.FromCurrentSynchronizationContext())
+            //to select the specified text
+            .ContinueWith(task =>
+            {
+                if (!string.IsNullOrEmpty(removeText) && pasteText.Contains(removeText))
+                {
+                    int startIndex = pasteText.LastIndexOf(removeText);
+                    int endIndex = startIndex + removeText.Length;
+                    for (int i = pasteText.Length; i > endIndex; i--)
+                    {
+                        keybd_event((byte)Keys.Left, 0, 0, 0);
+                        keybd_event((byte)Keys.Left, 0, KEYEVENTF_KEYUP, 0);
+                    }
+                    for (int i = 0; i < removeText.Length; i++)
+                    {
+                        keybd_event((byte)Keys.Back, 0, 0, 0);
+                        keybd_event((byte)Keys.Back, 0, KEYEVENTF_KEYUP, 0);
+                    }
+
+                    //keybd_event((byte)Keys.ShiftKey, 0, 0, 0);
+                    //for (int i = 0; i < removeText.Length; i++)
+                    //{
+                    //    keybd_event((byte)Keys.Left, 0, 0, 0);
+                    //    keybd_event((byte)Keys.Left, 0, KEYEVENTF_KEYUP, 0);
+                    //}
+                    //keybd_event((byte)Keys.ShiftKey, 0, KEYEVENTF_KEYUP, 0);
+                }
+            });
         }
 
         public void Dispose()

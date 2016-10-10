@@ -1,0 +1,5 @@
+d:\Documents and Settings\lwjdeng\Desktop\HOOK\MouseKeyboardLibrary\bin\Debug\MouseKeyboardLibrary.dll
+d:\Documents and Settings\lwjdeng\Desktop\HOOK\MouseKeyboardLibrary\bin\Debug\MouseKeyboardLibrary.pdb
+d:\Documents and Settings\lwjdeng\Desktop\HOOK\MouseKeyboardLibrary\obj\Debug\ResolveAssemblyReference.cache
+d:\Documents and Settings\lwjdeng\Desktop\HOOK\MouseKeyboardLibrary\obj\Debug\MouseKeyboardLibrary.dll
+d:\Documents and Settings\lwjdeng\Desktop\HOOK\MouseKeyboardLibrary\obj\Debug\MouseKeyboardLibrary.pdb

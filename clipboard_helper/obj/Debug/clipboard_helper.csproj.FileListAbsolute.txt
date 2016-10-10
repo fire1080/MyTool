@@ -1,0 +1,9 @@
+D:\Ricky\Temp\MyTfsTool\clipboard_helper\bin\Debug\clipboard_helper.exe
+D:\Ricky\Temp\MyTfsTool\clipboard_helper\bin\Debug\clipboard_helper.pdb
+D:\Ricky\Temp\MyTfsTool\clipboard_helper\obj\Debug\clipboard_helper.Properties.Resources.resources
+D:\Ricky\Temp\MyTfsTool\clipboard_helper\obj\Debug\clipboard_helper.csproj.GenerateResource.Cache
+D:\Ricky\Temp\MyTfsTool\clipboard_helper\obj\Debug\clipboard_helper.exe
+D:\Ricky\Temp\MyTfsTool\clipboard_helper\obj\Debug\clipboard_helper.pdb
+D:\Ricky\Temp\MyTfsTool\clipboard_helper\bin\Debug\clipboard_helper.exe.config
+D:\Ricky\Temp\MyTfsTool\clipboard_helper\obj\Debug\clipboard_helper.csprojResolveAssemblyReference.cache
+D:\Ricky\Temp\MyTfsTool\clipboard_helper\obj\Debug\clipboard_helper.FrmMyClipboard.resources

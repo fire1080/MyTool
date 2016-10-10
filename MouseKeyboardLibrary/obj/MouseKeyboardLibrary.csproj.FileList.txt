@@ -1,0 +1,5 @@
+bin\Debug\MouseKeyboardLibrary.dll
+bin\Debug\MouseKeyboardLibrary.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MouseKeyboardLibrary.dll
+obj\Debug\MouseKeyboardLibrary.pdb
